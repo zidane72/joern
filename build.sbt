@@ -7,8 +7,8 @@ organization := "io.shiftleft"
  * to 2.13.2 once that's released */
 ThisBuild / scalaVersion := "2.13.0"
 
-val cpgVersion = "0.11.15"
-val fuzzyc2cpgVersion = "1.1.19"
+val cpgVersion = "0.11.35"
+val fuzzyc2cpgVersion = "1.1.24"
 
 ThisBuild / resolvers ++= Seq(
   Resolver.mavenLocal,
